@@ -1,12 +1,8 @@
-<!DOCTYPE html>
-<html lang="ko-kr">
-<head>
-    <meta charset="UTF-8">
-    <title>Django Bookmark List</title>
-</head>
+{% extends "base.html" %}
 
-<body>
+{% block title %}Django Bookmark LIst{% endblock %}
 
+{% block content %}
 <div id="container">
 
     <h1>Bookmark List</h1>
@@ -18,6 +14,4 @@
     </ul>
 
 </div>
-
-</body>
-</html>
+{% endblock %}
