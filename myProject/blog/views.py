@@ -19,8 +19,8 @@ class PostLV(ListView) :
     paginate_by = 2
 
 class PostTOL(TaggedObjectList):
-	model = Post
-	template_name = 'tagging/tagging_post_list.html'
+    model = Post
+    template_name = 'tagging/tagging_post_list.html'
 
 #--- DetailView
 class PostDV(DetailView) :
